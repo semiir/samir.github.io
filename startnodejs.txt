@@ -1,0 +1,16 @@
+To start the Next.js app without the .next and node_modules directories, you can use the following commands in the terminal:
+
+Remove the .next and node_modules directories:
+
+rm -rf .next node_modules
+
+
+Install the dependencies again:
+
+npm install
+
+Start the Next.js development server:
+
+npm run dev
+
+These commands will clean up the build artifacts and dependencies, reinstall the necessary packages, and start the development server.
